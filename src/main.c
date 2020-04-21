@@ -2,9 +2,11 @@
 
 int main(void)
 {
+	char* format = "\n%s\n";
+
 	char* message = "Hello World!!!";
 
-	printf("\n%s\n", message);
+	printf(format, message);
 
 	return 0;
 }
